@@ -3,5 +3,5 @@ project(basic)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(basic thread.cpp)
+add_executable(basic main.cpp thread.cpp thread.h)
 #add_executable(basic thread.cpp)

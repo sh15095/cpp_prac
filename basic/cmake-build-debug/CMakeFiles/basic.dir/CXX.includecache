@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/daisuke/c++/basic/thread.cpp
+/home/daisuke/c++/basic/main.cpp
 iostream
 -
-thread
--
+thread.h
+/home/daisuke/c++/basic/thread.h
+
+/home/daisuke/c++/basic/thread.h
 

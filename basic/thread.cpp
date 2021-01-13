@@ -1,11 +1,11 @@
-#include<iostream>
-#include<thread>
+#include <iostream>
+
 
 void hello(){
     std::cout<<"Hey Everyone"<<std::endl;
 }
 
-int main(){
-    std::thread t{hello};
-    return 0;
-}
+//int main(){
+//    std::thread t{hello};
+//    return 0;
+//}

@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/daisuke/c++/basic/main.cpp">
+			<Option target="basic"/>
+		</Unit>
 		<Unit filename="/home/daisuke/c++/basic/thread.cpp">
+			<Option target="basic"/>
+		</Unit>
+		<Unit filename="/home/daisuke/c++/basic/thread.h">
 			<Option target="basic"/>
 		</Unit>
 		<Unit filename="/home/daisuke/c++/basic/CMakeLists.txt">
