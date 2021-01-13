@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/os.dir/main.cpp.o CMakeFiles/os.dir/thread1.cpp.o  -o os  -lpthread 
+/usr/bin/c++  -g   CMakeFiles/os.dir/main.cpp.o CMakeFiles/os.dir/thread1.cpp.o CMakeFiles/os.dir/race_condition.cpp.o CMakeFiles/os.dir/data_races.cpp.o  -o os  -lpthread 

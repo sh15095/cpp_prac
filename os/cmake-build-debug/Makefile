@@ -143,6 +143,33 @@ os/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/build
 .PHONY : os/fast
 
+data_races.o: data_races.cpp.o
+
+.PHONY : data_races.o
+
+# target to build an object file
+data_races.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/data_races.cpp.o
+.PHONY : data_races.cpp.o
+
+data_races.i: data_races.cpp.i
+
+.PHONY : data_races.i
+
+# target to preprocess a source file
+data_races.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/data_races.cpp.i
+.PHONY : data_races.cpp.i
+
+data_races.s: data_races.cpp.s
+
+.PHONY : data_races.s
+
+# target to generate assembly for a file
+data_races.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/data_races.cpp.s
+.PHONY : data_races.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -169,6 +196,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+race_condition.o: race_condition.cpp.o
+
+.PHONY : race_condition.o
+
+# target to build an object file
+race_condition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/race_condition.cpp.o
+.PHONY : race_condition.cpp.o
+
+race_condition.i: race_condition.cpp.i
+
+.PHONY : race_condition.i
+
+# target to preprocess a source file
+race_condition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/race_condition.cpp.i
+.PHONY : race_condition.cpp.i
+
+race_condition.s: race_condition.cpp.s
+
+.PHONY : race_condition.s
+
+# target to generate assembly for a file
+race_condition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/os.dir/build.make CMakeFiles/os.dir/race_condition.cpp.s
+.PHONY : race_condition.cpp.s
 
 thread1.o: thread1.cpp.o
 
@@ -206,9 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... os"
+	@echo "... data_races.o"
+	@echo "... data_races.i"
+	@echo "... data_races.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... race_condition.o"
+	@echo "... race_condition.i"
+	@echo "... race_condition.s"
 	@echo "... thread1.o"
 	@echo "... thread1.i"
 	@echo "... thread1.s"

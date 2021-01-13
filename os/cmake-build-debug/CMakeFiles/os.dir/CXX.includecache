@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/daisuke/c++/os/data_races.cpp
+iostream
+-
+data_races.h
+/home/daisuke/c++/os/data_races.h
+thread
+-
+chrono
+-
+
+/home/daisuke/c++/os/data_races.h
+
 /home/daisuke/c++/os/main.cpp
 iostream
 -
@@ -13,4 +25,10 @@ thread
 -
 chrono
 -
+race_condition.h
+/home/daisuke/c++/os/race_condition.h
+data_races.h
+/home/daisuke/c++/os/data_races.h
+
+/home/daisuke/c++/os/race_condition.h
 

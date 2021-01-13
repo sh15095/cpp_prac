@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/daisuke/c++/os/data_races.cpp">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/daisuke/c++/os/data_races.h">
+			<Option target="os"/>
+		</Unit>
 		<Unit filename="/home/daisuke/c++/os/main.cpp">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/daisuke/c++/os/race_condition.cpp">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/daisuke/c++/os/race_condition.h">
 			<Option target="os"/>
 		</Unit>
 		<Unit filename="/home/daisuke/c++/os/thread1.cpp">

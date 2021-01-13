@@ -1,8 +1,4 @@
 /snap/clion/138/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/daisuke/c++/os
-CMake Error at CMakeLists.txt:7 (find_package):
-  find_package called with invalid argument "Chrono"
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/daisuke/c++/os/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/home/daisuke/c++/os/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/c++/os/cmake-build-debug
